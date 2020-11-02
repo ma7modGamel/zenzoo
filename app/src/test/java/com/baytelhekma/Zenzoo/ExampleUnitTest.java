@@ -1,4 +1,4 @@
-package com.mgh.Zenzoo;
+package com.baytelhekma.Zenzoo;
 
 import org.junit.Test;
 

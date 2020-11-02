@@ -1,4 +1,4 @@
-package com.mgh.Zenzoo;
+package com.baytelhekma.Zenzoo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.mgh.Zenzoo", appContext.getPackageName());
+        assertEquals("com.baytelhekma.Zenzoo", appContext.getPackageName());
     }
 }
