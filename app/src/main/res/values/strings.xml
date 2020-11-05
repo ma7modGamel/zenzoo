@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Zenzoo</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="forgetPassword"><u>Forget Password ?</u></string>
+    <string name="registered">Login</string>
+    <string name="enter_your_phone">Enter Your Phone</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="or">Or</string>
+    <string name="google">google</string>
+    <string name="facebook">Facebook</string>
+    <string name="confirm_your_password">confirm your password</string>
+    <string name="forgetMyPassword">Forget Password</string>
+    <string name="sendCode">Enter your mobile number to send confirmation code</string>
+    <string name="sent">sent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="confirmCode">Enter confirm code</string>
+    <string name="sendCodefor">Please enter the confirmation code that Sent on </string>
+    <string name="confirm">confirm</string>
+    <string name="resend"><u>Resend</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="confirm_your_new_password">Confirm your new password</string>
+    <string name="save">save</string>
+    <string name="changeMyPassword">Change password</string>
+    <string name="myInfo">My info</string>
+    <string name="enter_your_name">Enter your full name</string>
+    <string name="name">name</string>
+    <string name="enter_your_birthday">Enter your birthday</string>
+    <string name="birthday">Birthday</string>
+    <string name="gernder_male">Male</string>
+    <string name="gernder_female">Female</string>
+    <string name="enter_kind">Select your gender</string>
+    <string name="kind">Gender</string>
+    <string name="email">Email</string>
+    <string name="connect_with">Connect with</string>
+    <string name="google_account">Google Account</string>
+    <string name="connect_now">connect now</string>
+    <string name="facebook_account">Facebook Account</string>
+
+
 </resources>
