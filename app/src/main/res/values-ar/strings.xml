@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zenzoo</string>
+    <string name="login">تسجيل الدجول</string>
+    <string name="signUp">حساب جديد</string>
+    <string name="forgetPassword" ><u>نسيت كلمة السر ؟</u></string>
+    <string name="registered" >التسجيل</string>
+    <string name="enter_your_phone">ادخل رقم الهاتف</string>
+    <string name="enter_your_password">ادخل كلمة السر</string>
+    <string name="or">أو عن طريق</string>
+    <string name="google">جوجل</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="confirm_your_password">تأكيد كلمة السر</string>
+    <string name="forgetMyPassword" >نسيت كلمة السر</string>
+    <string name="sendCode">ادخل رقم الهاتف لإرسال كود التأكيد</string>
+    <string name="sent">ارسال</string>
+    <string name="confirmCode">ادخل كود لتأكيد</string>
+    <string name="sendCodefor">يرجاء إدخال كود التأكيد الذي
+تم إرساله على رقم</string>
+    <string name="confirm">التاكيد</string>
+    <string name="resend"><u>إعادة إرسال</u></string>
+    <string name="enter_your_new_password">كلمة السر الجديدة</string>
+    <string name="confirm_your_new_password">تأكيد كلمة السر الجديدة</string>
+    <string name="save">حفظ</string>
+    <string name="changeMyPassword">تغيير كلمة السر</string>
+    <string name="myInfo">معلوماتي</string>
+    <string name="enter_your_name">ادخل الاسم كامل</string>
+    <string name="name">الاسم</string>
+    <string name="enter_your_birthday">تحديد تاريخ الميلاد</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="gernder_male">ذكر</string>
+    <string name="gernder_female">انثى</string>
+    <string name="enter_kind">تحديد النوع</string>
+    <string name="kind">النوع</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="connect_with">ربط الحساب مع</string>
+    <string name="google_account">حساب جوجل</string>
+    <string name="connect_now">الربط الآن</string>
+    <string name="facebook_account">حساب الفيسبوك</string>
+
+
+</resources>
