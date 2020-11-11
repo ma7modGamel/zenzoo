@@ -18,7 +18,7 @@
             <TextView
                 android:id="@+id/tvInfo"
                 android:text="@string/myInfo"
-
+                android:fontFamily="@font/arabic_medium"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="20sp"
@@ -82,6 +82,8 @@
                     <TextView
                         android:id="@+id/tvName"
                         android:layout_gravity="end"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -95,6 +97,8 @@
                         android:hint="@string/enter_your_name"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         app:boxBackgroundMode="outline"
+                        android:fontFamily="@font/arabic_medium"
+
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         app:boxCornerRadiusBottomEnd="10dp"
@@ -114,6 +118,8 @@
                         android:id="@+id/tvPhone"
                         android:textStyle="bold"
                         android:layout_gravity="end"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:layout_margin="10dp"
                         android:textColor="@color/darkGray"
                         android:text="@string/enter_your_phone"
@@ -135,6 +141,8 @@
                         app:boxCornerRadiusBottomEnd="10dp"
                         app:boxCornerRadiusBottomStart="10dp"
                         app:boxCornerRadiusTopEnd="10dp"
+                        android:fontFamily="@font/arabic_medium"
+
                         app:boxCornerRadiusTopStart="10dp">
 
 
@@ -152,6 +160,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:text="@string/birthday"
                         android:textColor="@color/darkGray"
                         android:textStyle="bold"/>
@@ -173,6 +183,8 @@
                         app:boxCornerRadiusBottomEnd="10dp"
                         app:boxCornerRadiusBottomStart="10dp"
                         app:boxCornerRadiusTopEnd="10dp"
+                        android:fontFamily="@font/arabic_medium"
+
                         app:boxCornerRadiusTopStart="10dp">
 
 
@@ -191,6 +203,8 @@
                         android:textColor="@color/darkGray"
                         android:text="@string/kind"
                         android:layout_width="wrap_content"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:layout_height="wrap_content"/>
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/kindLayout"
@@ -205,6 +219,8 @@
                         app:boxCornerRadiusBottomEnd="10dp"
                         app:boxCornerRadiusBottomStart="10dp"
                         app:boxCornerRadiusTopEnd="10dp"
+                        android:fontFamily="@font/arabic_medium"
+
                         app:boxCornerRadiusTopStart="10dp">
 
 
@@ -223,6 +239,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:layout_gravity="end"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:textColor="@color/darkGray"
                         android:textStyle="bold"/>
 
@@ -241,6 +259,8 @@
                         app:boxCornerRadiusBottomEnd="10dp"
                         app:boxCornerRadiusBottomStart="10dp"
                         app:boxCornerRadiusTopEnd="10dp"
+                        android:fontFamily="@font/arabic_medium"
+
                         app:boxCornerRadiusTopStart="10dp">
 
 
@@ -259,6 +279,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:textColor="@color/darkGray"
                         android:textStyle="bold"
                         />
@@ -285,6 +307,8 @@
                             android:textStyle="bold"
                             android:textColor="@color/black"
                             android:text="@string/google_account"
+                            android:fontFamily="@font/arabic_medium"
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -324,6 +348,8 @@
                             android:textStyle="bold"
                             android:textColor="@color/black"
                             android:text="@string/facebook_account"
+                            android:fontFamily="@font/arabic_medium"
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -353,6 +379,8 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/emailLayout"
                         android:layout_width="wrap_content"
+                        android:fontFamily="@font/arabic_regular"
+
                         android:layout_height="wrap_content"/>
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/passwordLayout"
@@ -382,6 +410,13 @@
                             android:id="@+id/password" />
                     </com.google.android.material.textfield.TextInputLayout>
 
+                    <com.google.android.material.button.MaterialButton
+                        android:text="@string/save"
+                        android:layout_margin="10dp"
+                        app:cornerRadius="10dp"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
 
             </ScrollView>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Zenzoo</string>
+    <string name="app_name">زينزو</string>
     <string name="login">تسجيل الدجول</string>
     <string name="signUp">حساب جديد</string>
     <string name="forgetPassword" ><u>نسيت كلمة السر ؟</u></string>
@@ -37,6 +37,21 @@
     <string name="google_account">حساب جوجل</string>
     <string name="connect_now">الربط الآن</string>
     <string name="facebook_account">حساب الفيسبوك</string>
+    <string name="title_account">الحساب</string>
+    <string name="title_favorite">المفضلة</string>
+    <string name="title_orders">الطلبات</string>
+    <string name="title_category">الأقسام</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="searchHere">ٍالبحث عن الأدوات او الاكسوارات</string>
+    <string name="recentlyCome">أضيف حديثا</string>
+    <string name="more">المزيد</string>
+    <string name="offers">العروض</string>
+    <string name="BestSelling">اكثر مبيعا</string>
+    <string name="recentlyViewed">منتجات قد شاهدتها</string>
+    <string name="addTOCart">إضافة للسلة</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="internet_check">الرجاء التأكد من وجود اتصال بالإنترنت لتتمكن من تصفح المنتجات</string>
+    <string name="try_again">إعادة المحاولة</string>
 
 
 </resources>

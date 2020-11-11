@@ -13,6 +13,8 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.DisplayMetrics;
+import android.view.View;
+
 import com.baytelhekma.zenzoo.R;
 import com.baytelhekma.zenzoo.databinding.ActivityLoginBinding;
 import com.baytelhekma.zenzoo.ui.base.BaseActivity;
@@ -27,12 +29,7 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final Locale myLocale = new Locale("ar");
-        final Resources res = getResources();
-        final DisplayMetrics dm = res.getDisplayMetrics();
-        final Configuration conf = res.getConfiguration();
-        conf.locale = myLocale;
-        res.updateConfiguration(conf, dm);
+
         binding= DataBindingUtil.setContentView(this, R.layout.activity_login);
         String a ="<font color=#000>أهلا بك فى <br> تطبيق</font> <font color=#b31919>زينزو</font>";
         binding.tvWelcome.setText(Html.fromHtml(a));
@@ -48,6 +45,12 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void onClick() {
+        binding.skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MyStartActivity(LoginActivity.this,HomeActivity.class);
+            }
+        });
 
     }
 

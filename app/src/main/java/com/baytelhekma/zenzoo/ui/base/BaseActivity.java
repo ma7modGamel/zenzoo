@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.baytelhekma.zenzoo.R;
 import com.baytelhekma.zenzoo.ui.activity.SplashScreen;
+import com.baytelhekma.zenzoo.ui.fragment.BottomDialogFragment;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -33,6 +34,10 @@ public class BaseActivity extends AppCompatActivity {
     public void startActivityTransitionAnimation(Activity from, Class to, View view, String sharedElementName){
         Intent intent=new Intent(from,to);
         startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(from, view, sharedElementName).toBundle());
+    }
+    public void BottomSheetCrate(){
+        BottomDialogFragment.newInstance(5);
+
     }
 
 }

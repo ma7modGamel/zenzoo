@@ -38,6 +38,23 @@
     <string name="google_account">Google Account</string>
     <string name="connect_now">connect now</string>
     <string name="facebook_account">Facebook Account</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">account</string>
+    <string name="title_favorite">favorite</string>
+    <string name="title_orders">orders</string>
+    <string name="title_category">category</string>
+    <string name="searchHere">ٍSearch here</string>
+    <string name="recentlyCome">Recently come</string>
+    <string name="more">more</string>
+    <string name="offers">offers</string>
+    <string name="BestSelling">best selling</string>
+    <string name="recentlyViewed">recently viewed</string>
+    <string name="addTOCart">Add to cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_internet">No Internet Connection </string>
+    <string name="internet_check">Please make sure you have an internet connection To be able to browse products</string>
+    <string name="try_again">Try again</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 
 </resources>

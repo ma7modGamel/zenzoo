@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.baytelhekma.zenzoo.ui.fragment.home.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.baytelhekma.zenzoo.ui.fragment.home.category.CategoriesFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.baytelhekma.zenzoo.ui.fragment.home.orders.OrdersFragment"
+        android:label="@string/title_orders"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.baytelhekma.zenzoo.ui.fragment.home.orders.OrdersFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.baytelhekma.zenzoo.ui.fragment.home.orders.OrdersFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
